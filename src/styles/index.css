@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* app css */
+.App {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* card css */
+.centerDiv {
+  background-color: red;
+  padding: 15px;
+  border: 2px solid green;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 2px 2px 10px black;
+}
+.centerDiv:hover {
+  background-color: green;
+  border: 2px solid red;
+  box-shadow: inset 2px 2px 10px black;
+}
+/* tooltip content css */
+.description {
+  position: absolute;
+  background-color: darkgray;
+  color: white;
+  text-shadow: 1px 1px black;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+
+/* ToolTip position css */
+.left {
+  right: 165px;
+  bottom: -6px;
+}
+.left::after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 35%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+.right {
+  left: 165px;
+  bottom: -6px;
+}
+.right::after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 35%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.top {
+  bottom: 65px;
+  /* border: 10px solid red; */
+}
+.top::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.bottom {
+  top: 65px;
+}
+.bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+/* CSS for button */
+.buttonContainer {
+  padding: 10px;
+  position: absolute;
+  bottom: 40px;
+}
+button {
+  background-color: #00bf04;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 20px;
+}
