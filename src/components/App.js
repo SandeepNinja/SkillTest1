@@ -10,6 +10,7 @@ class App extends React.Component {
       displayTip: false,
     };
   }
+  //This function is use to contorl the position of tooltip
   handlePositionChange = (position) => {
     console.log("hP: ", this.state);
     this.setState(
@@ -21,6 +22,7 @@ class App extends React.Component {
       () => console.log("newState: ", this.state)
     );
   };
+  // this function is use to control the visivility of the tooltip
   toogleDisplayTip = (val) => {
     // console.log("I am tool tip: ", this.state);
     // const { displayTip } = this.state;
