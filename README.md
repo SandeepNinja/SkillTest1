@@ -20,3 +20,6 @@ This project aims to create a button with a popup tooltip that appears when the 
 2. Create a button element with a unique ID for identification purposes.
 3. Initialize the tooltip functionality by calling the appropriate JavaScript function and passing the button ID as a parameter.
 4. Customize the tooltip appearance and behavior by modifying the CSS styles and JavaScript code as needed.
+
+
+Author : Sandeep Vshwakarma
