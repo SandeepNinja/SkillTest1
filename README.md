@@ -12,9 +12,8 @@ This project aims to create a button with a popup tooltip that appears when the 
 - The tooltip can be dismissed by moving the cursor away from the button.
 
 ## Technologies Used
-- HTML: Used for creating the button and tooltip elements.
 - CSS: Used for styling the button and tooltip.
-- JavaScript: Used for handling the button hover event, tooltip positioning, and other interactive functionality.
+- React JS: Used for handling the button hover event, tooltip positioning, and other interactive functionality.
 
 ## Usage
 1. Include the necessary CSS and JavaScript files in your HTML document.
